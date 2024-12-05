@@ -1,18 +1,6 @@
 <?php
 session_start();
-
-// Database connection
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "auxlib";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+require "dbConnect.php";
 
 if ($_SERVER["REQUEST_METHOD"] ==  "POST") {
     $user = $conn->real_escape_string($_POST['username']);
