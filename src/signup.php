@@ -57,7 +57,7 @@
             <button type="submit">Sign Up</button>
         </form>
 
-        <p>Already have an account? <a href="index.html">Log in</a></p>
+        <p>Already have an account? <a href="../index.html">Log in</a></p>
     </div>
 
     <script>

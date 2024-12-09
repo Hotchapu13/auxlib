@@ -5,6 +5,11 @@
     $password = "12345555####";
     $dbname = "auxlib";
 
+    // $servername = "localhost";
+    // $username = "root";
+    // $password = "";
+    // $dbname = "auxlib";
+
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
 

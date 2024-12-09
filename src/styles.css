@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(library1.avif);
-    background-size: cover;
+    background-image: url(img/library1.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,20 +13,16 @@ body {
 }
 
 .container {
-    position: relative;
-    width: 500px;
-    height: 500px;
     text-align: center;
-    background-color: rgb(101, 99, 99);
+    background: rgb(147, 146, 146);
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .logo {
     max-width: 100px;
     margin-bottom: 20px;
-    border-radius:50px ;
 }
 
 .login-form {
@@ -66,7 +61,6 @@ body {
 }
 
 .container {
-    background-color: rgb(59, 58, 58);
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -78,7 +72,7 @@ h1 {
 }
 
 h2 {
-    color: black;
+    color: #555;
     margin-bottom: 20px;
 }
 
@@ -146,11 +140,11 @@ h2 {
 .book-list {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 20px;
 }
 
 .book-item {
-    border: 1px solid white;
+    border: 1px solid #ccc;
     border-radius: 5px;
     padding: 15px;
     display: flex;
@@ -214,7 +208,6 @@ h2 {
 }
 
 .container {
-    background-color: rgb(59, 58, 58);
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -222,7 +215,7 @@ h2 {
 }
 
 h1 {
-    color: #eae4e4;
+    color: #333;
 }
 
 .book-info {

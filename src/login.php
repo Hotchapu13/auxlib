@@ -2,6 +2,10 @@
 session_start();
 require "dbConnect.php";
 
+// Set timeout duration (10 minutes)
+$_SESSION["last_activity"] = time();
+
+
 if ($_SERVER["REQUEST_METHOD"] ==  "POST") {
     $user = $conn->real_escape_string($_POST['username']);
     $pass = $conn->real_escape_string($_POST['password']);
