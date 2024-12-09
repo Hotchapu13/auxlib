@@ -27,7 +27,7 @@
             if ($conn->query($sql) === TRUE) {
                 echo "<script>
                             alert('Account created successfully!');
-                            window.location.href = 'index.html';
+                            window.location.href = '../index.html';
                         </script>";
             } else {
                 echo "<p class='error'>Error: " . $sql . "<br>" . $conn->error . "</p>";
