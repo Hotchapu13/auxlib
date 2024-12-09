@@ -24,7 +24,9 @@ if (!isset($_SESSION['username'])) {
 
         <div class="book-list">
             <div class="book-item">
-                <img src="img/fiction_book1.jpg" alt="Fiction Book 1" class="book-img">
+                <div>
+                    <img src="img/fiction_book1.jpg" alt="Fiction Book 1" class="book-img">
+                </div>
                 <div class="book-info">
                     <h3>Title: The Great Gatsby</h3>
                     <p><strong>Author:</strong> F. Scott Fitzgerald</p>

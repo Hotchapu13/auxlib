@@ -1,14 +1,14 @@
 <?php
     // Database credentials
-    $servername = "phprds.cfi2ec4okuln.ap-south-1.rds.amazonaws.com";
-    $username = "root";
-    $password = "12345555####";
-    $dbname = "auxlib";
-
-    // $servername = "localhost";
+    // $servername = "phprds.cfi2ec4okuln.ap-south-1.rds.amazonaws.com";
     // $username = "root";
-    // $password = "";
+    // $password = "12345555####";
     // $dbname = "auxlib";
+
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "auxlib";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);

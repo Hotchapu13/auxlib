@@ -54,7 +54,7 @@ if (!isset($_SESSION['username'])) {
         </div>
       </div>
 
-      <a href="index.html" class="logout-button">Logout</a>
+      <a href="SignOut.php" class="logout-button">Logout</a>
     </div>
   </body>
 </html>
